@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Is Valid Triangle</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo-container">
+        <a href="../index.html">
+          <img src="../logo.svg" alt="" class="logo" />
+        </a>
+        <div class="toogle-menu">
+          <i id="menu-icon" class="fas fa-bars"></i>
+        </div>
+      </div>
+      <ul class="nav-list active-toggle">
+        <a class="nav-link" href="../pages/trianlgeQuiz.html">
+          <li class="nav-items">Triangle Quiz</li>
+        </a>
+        <a class="nav-link active-nav" href="#">
+          <li class="nav-items">Is Valid Triangle?</li>
+        </a>
+        <a class="nav-link" href="../pages/findHypotenuse.html">
+          <li class="nav-items">Find Hypotenuse</li>
+        </a>
+        <a class="nav-link" href="../pages/calculateArea.html">
+          <li class="nav-items">Calculate Area</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="hero-section">
+        <h1 class="hero-heading">Is Valid Triangle</h1>
+        <p class="hero-subheading">
+          Check whether the triangle is a valid one or not by giving the length
+          of the side as input
+        </p>
+      </div>
+    </div>
+    <div class="row-container">
+      <div class="input-element">
+        <h5 class="input-label">Enter the length of first side</h5>
+        <input
+          class="input"
+          id="first-side"
+          type="number"
+          placeholder="Enter here..."
+        />
+      </div>
+      <div class="input-element">
+        <h5 class="input-label">Enter the length of second side</h5>
+        <input
+          class="input"
+          id="second-side"
+          type="number"
+          placeholder="Enter here..."
+        />
+      </div>
+      <div class="input-element">
+        <h5 class="input-label">Enter the length of third side</h5>
+        <input
+          class="input"
+          id="third-side"
+          type="number"
+          placeholder="Enter here..."
+        />
+      </div>
+    </div>
+    <div class="container">
+      <button class="btn btn-lg" id="check-btn">Check now</button>
+    </div>
+    <div id="output"></div>
+    <footer class="footer">
+      <h4 class="footer-heading">2021 | Mobashir Farhan</h4>
+      <div class="social-icons">
+        <a class="footer-link" href="https://twitter.com/MobashirFarhan">
+          <i class="icon fab fa-twitter"></i>
+        </a>
+        <a class="footer-link" href="https://github.com/FarhanMobashir">
+          <i class="icon fab fa-github"></i>
+        </a>
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/mobashirfarhan/"
+        >
+          <i class="icon fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="../app.js"></script>
+    <script src="../scripts/isValidTriangle.js"></script>
+  </body>
+</html>
